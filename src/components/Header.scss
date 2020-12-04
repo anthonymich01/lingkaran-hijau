@@ -1,0 +1,19 @@
+@import "../constant";
+
+.header {
+  .title {
+    margin: 30px 0;
+    padding: 0;
+    text-align: center;
+    cursor: pointer;
+
+    .logo {
+      position: relative;
+      top: 3px;
+      margin-right: 5px;
+      display: inline;
+      width: 30px;
+      height: auto;
+    }
+  }
+}

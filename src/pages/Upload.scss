@@ -1,0 +1,36 @@
+.title {
+  text-align: center;
+  margin: 0;
+}
+
+.form-upload {
+  max-width: 400px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 10px;
+
+  form {
+    p {
+      margin: 15px 0 5px;
+    }
+
+    input {
+      width: calc(100% - 18px);
+      padding: 7px;
+    }
+
+    .input-file {
+      padding-left: 0;
+    }
+
+    .button-p {
+      margin-top: 25px;
+      text-align: center;
+
+      .upload {
+        width: 100%;
+        font-weight: 700;
+      }
+    }
+  }
+}

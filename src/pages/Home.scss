@@ -1,0 +1,84 @@
+@import "../constant";
+
+.subtitle {
+  margin: 5px 0 0;
+  padding: 0;
+  text-align: center;
+}
+
+.upload-button {
+  background-color: $c-primary;
+  color: $c-light;
+  padding: 15px;
+  border: 0;
+  font-size: 15px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.input-container {
+  width: 500px;
+  margin: 10px auto;
+
+  .input-box {
+    background-color: $c-dark;
+    color: #fff;
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 0;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 15px;
+
+    &::placeholder {
+      color: $c-light;
+      opacity: 0.8;
+    }
+  }
+
+  .sugestion-list {
+    text-align: center;
+    margin: 0;
+    padding: 5px 0;
+    background-color: $c-light;
+    color: $c-dark;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+
+    &:hover {
+      background-color: $c-primary;
+      color: $c-light;
+    }
+  }
+}
+
+.container {
+  width: 98%;
+  margin: 20px auto;
+
+  .box {
+    h1 {
+      text-align: center;
+    }
+
+    .gifs-list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      grid-gap: 10px;
+      align-items: center;
+
+      .gifs-image {
+        width: 250px;
+        height: 250px;
+        text-align: center;
+        cursor: pointer;
+
+        img {
+          max-width: 100%;
+          max-height: 100%;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,34 @@
+@import "./constant";
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  background-color: $c-darkest;
+  color: $c-light;
+}
+
+a {
+  color: $c-light;
+  text-decoration: none;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+// CUSTOM CSS
+
+.primary-button {
+  background-color: $c-primary;
+  color: $c-light;
+  padding: 15px 25px;
+  border: 0;
+  font-size: 15px;
+  font-weight: 700;
+  border-radius: 4px;
+  cursor: pointer;
+}

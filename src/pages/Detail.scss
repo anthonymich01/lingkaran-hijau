@@ -1,0 +1,45 @@
+@import "../constant";
+
+.image-box {
+  max-width: 600px;
+  width: 100%;
+  margin: 0 auto;
+
+  h3 {
+    text-align: center;
+  }
+
+  img {
+    width: 100%;
+  }
+}
+
+.properties {
+  width: 98%;
+  margin: 30px auto;
+
+  table {
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+
+    thead tr {
+      background-color: $c-primary;
+    }
+
+    th {
+      text-align: left;
+      padding: 5px;
+    }
+
+    .cell-key {
+      width: 200px;
+      padding: 5px;
+    }
+
+    .cell-val {
+      word-break: break-all;
+      padding: 5px;
+    }
+  }
+}
